@@ -1,0 +1,13 @@
+.img-for-cart {
+  width: 50px;
+  height: 30px;
+}
+.for-cart {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.for-cart span {
+  margin-left: 5px;
+  font-size: 20px;
+}

@@ -1,12 +1,31 @@
-.data-list {
-  margin-top: 20px;
+.data-list-single {
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  padding: 25px 0;
+  border: 1px solid #f68155;
 }
-
 .data-list-single img {
   width: 250px;
   height: 160px;
 }
-
+.data-list-single p {
+  margin-top: 7px;
+  font-weight: 600;
+}
 .data-list-single button {
   margin-bottom: 10px;
+  margin-top: 10px;
+}
+.btn-global {
+  background-color: #f68155;
+  width: 134px;
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-global:hover {
+  background-color: black;
+  color: white;
 }

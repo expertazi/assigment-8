@@ -7,14 +7,14 @@ const Data = (props) => {
         <div className='data-list'>
         <div className='data-list-single'>
             <img src={img} alt="" />
-            <h2>Country Name: {name}</h2>
+            <h2>Country : {name}</h2>
             <p>Country Code: {code}</p>
             <p>Population: {population}</p>
             <p>Deaths: {deaths}</p>
             <p>Confirmed: {confirmed}</p>
             <p>Recovered: {recovered}</p>
             <p>Critical: {critical}</p>
-            <button onClick={() => props.handleAddToCart(props.data)}>Add To Cart</button>
+            <button className='btn-global' onClick={() => props.handleAddToCart(props.data)}>Add To Cart</button>
         </div>
         </div>
     );

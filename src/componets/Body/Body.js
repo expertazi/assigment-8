@@ -15,12 +15,8 @@ const Body = () => {
     }, []);
 
     const handleAddToCart=(dataBtn)=>{
-        console.log(dataBtn.name);
-        console.log(dataBtn);
           const newCart = [...cartt,dataBtn];
         setCart(newCart);
-        console.log(newCart.length);
-    
     }
 
     return (

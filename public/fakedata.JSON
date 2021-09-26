@@ -1,1 +1,135 @@
-[{"id":1, "name":"Afghanistan","code":"AF","img":"https://cdn.britannica.com/40/5340-004-B25ED5CF/Flag-Afghanistan.jpg","population":29121286,"deaths":7198,"confirmed":155019,"recovered":123527,"critical":24294},{"id":2, "name":"Albania","code":"AL","img":"https://cdn.britannica.com/00/6200-004-42B7690E/Flag-Albania.jpg","population":2986952,"deaths":2619,"confirmed":166690,"recovered":151914,"critical":12157},{"id":3, "name":"Åland Islands","code":"AX","img":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Flag_of_%C3%85land.svg/1200px-Flag_of_%C3%85land.svg.png","population":26711,"deaths":0,"confirmed":0,"recovered":0,"critical":0},{"id":4, "name":"American Samoa","code":"AS","img":"https://cdn.britannica.com/53/69553-050-D8C6DA5E/Flag-of-American-Samoa.jpg","population":57881,"deaths":0,"confirmed":0,"recovered":0,"critical":0},{"id":5, "name":"Algeria","code":"AS","img":"https://cdn.britannica.com/34/3034-004-1A765B57/Flag-Algeria.jpg","population":34586184,"deaths":5758,"confirmed":202449,"recovered":138632,"critical":58059},{"id":6, "name":"Bangladesh","code":"BD","img":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/2560px-Flag_of_Bangladesh.svg.png","population":156118464,"deaths":27368,"confirmed":1549553,"recovered":1509202,"critical":12983},{"id":7, "name":"India","code":"IN","img":"https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png","population":1173108018,"deaths":446690,"confirmed":33624419,"recovered":32876319,"critical":301410},{"id":8, "name":"USA","code":"US","img":"https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg","population":310232863,"deaths":705293,"confirmed":43668680,"recovered":33112993,"critical":9850394},{"id":9, "name":"Canada","code":"CA","img":"https://www.worldatlas.com/img/flag/ca-flag.jpg","population":33679000,"deaths":27620,"confirmed":1598800,"recovered":1526156,"critical":45024},{"id":10, "name":"Brazil","code":"BR","img":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png","population":201103330,"deaths":593698,"confirmed":21327616,"recovered":20326408,"critical":407510}]
+[
+    {
+      "id": 1,
+      "name": "Afghanistan",
+      "code": "AF",
+      "img": "https://cdn.britannica.com/40/5340-004-B25ED5CF/Flag-Afghanistan.jpg",
+      "population": 29121286,
+      "deaths": 7198,
+      "confirmed": 155019,
+      "recovered": 123527,
+      "critical": 24294
+    },
+    {
+      "id": 2,
+      "name": "Albania",
+      "code": "AL",
+      "img": "https://cdn.britannica.com/00/6200-004-42B7690E/Flag-Albania.jpg",
+      "population": 2986952,
+      "deaths": 2619,
+      "confirmed": 166690,
+      "recovered": 151914,
+      "critical": 12157
+    },
+    {
+      "id": 3,
+      "name": "Åland Islands",
+      "code": "AX",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Flag_of_%C3%85land.svg/1200px-Flag_of_%C3%85land.svg.png",
+      "population": 26711,
+      "deaths": 0,
+      "confirmed": 0,
+      "recovered": 0,
+      "critical": 0
+    },
+    {
+      "id": 4,
+      "name": "American Samoa",
+      "code": "AS",
+      "img": "https://cdn.britannica.com/53/69553-050-D8C6DA5E/Flag-of-American-Samoa.jpg",
+      "population": 57881,
+      "deaths": 0,
+      "confirmed": 0,
+      "recovered": 0,
+      "critical": 0
+    },
+    {
+      "id": 5,
+      "name": "Algeria",
+      "code": "AS",
+      "img": "https://cdn.britannica.com/34/3034-004-1A765B57/Flag-Algeria.jpg",
+      "population": 34586184,
+      "deaths": 5758,
+      "confirmed": 202449,
+      "recovered": 138632,
+      "critical": 58059
+    },
+    {
+      "id": 6,
+      "name": "Bangladesh",
+      "code": "BD",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/2560px-Flag_of_Bangladesh.svg.png",
+      "population": 156118464,
+      "deaths": 27368,
+      "confirmed": 1549553,
+      "recovered": 1509202,
+      "critical": 12983
+    },
+    {
+      "id": 7,
+      "name": "India",
+      "code": "IN",
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png",
+      "population": 1173108018,
+      "deaths": 446690,
+      "confirmed": 33624419,
+      "recovered": 32876319,
+      "critical": 301410
+    },
+    {
+      "id": 8,
+      "name": "USA",
+      "code": "US",
+      "img": "https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg",
+      "population": 310232863,
+      "deaths": 705293,
+      "confirmed": 43668680,
+      "recovered": 33112993,
+      "critical": 9850394
+    },
+    {
+      "id": 9,
+      "name": "Canada",
+      "code": "CA",
+      "img": "https://www.worldatlas.com/img/flag/ca-flag.jpg",
+      "population": 33679000,
+      "deaths": 27620,
+      "confirmed": 1598800,
+      "recovered": 1526156,
+      "critical": 45024
+    },
+    {
+      "id": 10,
+      "name": "Brazil",
+      "code": "BR",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png",
+      "population": 201103330,
+      "deaths": 593698,
+      "confirmed": 21327616,
+      "recovered": 20326408,
+      "critical": 407510
+    },
+    {
+        "id": 11,
+        "name": "Benin",
+        "code": "BJ",
+        "img": "https://cdn.britannica.com/37/5037-004-E474738C/Flag-Benin.jpg",
+        "population": 9056010,
+        "deaths": 154,
+        "confirmed": 22958,
+        "recovered": 17294,
+        "critical": 5510
+      },
+      {
+        "id": 12,
+        "name": "Belize",
+        "code": "BZ",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/2560px-Flag_of_Belize.svg.png",
+        "population": 314522,
+        "deaths": 402,
+        "confirmed": 19600,
+        "recovered": 17247,
+        "critical": 1951
+      }
+
+  ]

@@ -1,11 +1,35 @@
-.header-main {
-  background-color: black;
+.header-frist {
+  text-align: center;
+  height: 200px;
+  margin-bottom: 50px;
+}
+.header-frist-inside {
+  background-color: #000;
+}
+.header-frist h1 {
+  color: white;
+  margin-top: 20px;
+}
+.header-frist p {
+  color: white;
+  width: 500px;
+  margin-left: 515px;
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.header-nav {
+  background-color: #f68155;
   line-height: 50px;
   text-align: center;
 }
-.header-main a {
+.header-nav a {
   font-size: 25px;
   color: white;
   margin-right: 20px;
   text-decoration: none;
+}
+.header-nav a:hover {
+  background-color: black;
+  padding: 20px;
 }
