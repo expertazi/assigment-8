@@ -1,8 +1,11 @@
 import React from 'react';
-import './Data.css'
+import './Data.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 const Data = (props) => {
     const {name,code,img,population,deaths,confirmed,recovered,critical} = props.data;
+    const element = <FontAwesomeIcon icon={faCheck} />
     return (
         <div className='data-list'>
         <div className='data-list-single'>
@@ -14,7 +17,7 @@ const Data = (props) => {
             <p>Confirmed: {confirmed}</p>
             <p>Recovered: {recovered}</p>
             <p>Critical: {critical}</p>
-            <button className='btn-global' onClick={() => props.handleAddToCart(props.data)}>Add To Cart</button>
+            <button className='btn-global' onClick={() => props.handleAddToCart(props.data)}> {element} Add To Cart</button>
         </div>
         </div>
     );
