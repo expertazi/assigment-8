@@ -1,0 +1,12 @@
+.data-list {
+  margin-top: 20px;
+}
+
+.data-list-single img {
+  width: 250px;
+  height: 160px;
+}
+
+.data-list-single button {
+  margin-bottom: 10px;
+}

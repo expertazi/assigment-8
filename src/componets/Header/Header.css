@@ -1,0 +1,11 @@
+.header-main {
+  background-color: black;
+  line-height: 50px;
+  text-align: center;
+}
+.header-main a {
+  font-size: 25px;
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
