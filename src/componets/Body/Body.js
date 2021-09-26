@@ -6,6 +6,7 @@ import './Body.css'
 
 const Body = () => {
     const [showData, setShowData] = useState([]);
+    const [cartt,setCart] = useState([]);
 
     useEffect(() => {
         fetch('./fakedata.JSON')
@@ -13,14 +14,13 @@ const Body = () => {
         .then(data=>setShowData(data))
     }, []);
 
-    const [cart,setCart] = useState([]);
     const handleAddToCart=(dataBtn)=>{
         console.log(dataBtn.name);
         console.log(dataBtn);
-        //   const newCart = [...cart,dataBtn];
-        // setCart(newCart);
-        // console.log(newCart);
-      setCart(dataBtn.name)
+          const newCart = [...cartt,dataBtn];
+        setCart(newCart);
+        console.log(newCart.length);
+    
     }
 
     return (
@@ -31,8 +31,8 @@ const Body = () => {
             }
         </div>
         <div className='cart'>
-                <h2>This is Cart</h2>
-                <Cart cart={cart}></Cart>
+               
+                <Cart cart={cartt}></Cart>
             </div>
         </div>
     );
